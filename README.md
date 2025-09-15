@@ -7,44 +7,90 @@ Im presenting the process of a successful phishing attacking showing both sides 
   I'll be using a VM to execute this project.
 
 
-![Capturegg](https://github.com/blwhit/Web-Application-Development/assets/141170960/aa57473a-7f3d-4216-be64-7a8a8a639f91)
+![Capturegg](https://github.com/Silveshadow/Social-Engineering-using-SET/blob/main/Screenshot%202025-09-15%20112428.png)
 
 
-### Plan:
-- Defined key individual responsibilities, developed wireframes, and created a sprint based project timeline 
+# Attacker: Kali 2 Attack Machine
+
+  I start in the command line.
 
 
-![Capture44](https://github.com/blwhit/Web-Application-Development/assets/141170960/00e120f8-4f18-456b-8f30-fb6c1c2a028c)
-![Capture3](https://github.com/blwhit/Web-Application-Development/assets/141170960/16958661-63bf-48a2-893e-61af9aeeb59f)
-![Capture2](https://github.com/blwhit/Web-Application-Development/assets/141170960/34ff13f0-eb64-4db9-9d0b-e873ab4a9dd0)
+![Capture44](https://github.com/Silveshadow/Social-Engineering-using-SET/blob/main/Screenshot%202025-09-15%20112708.png)
 
+I used the code setoolkit to create my phishing attack and proceed with the steps going to option 1: Social Engineering Attacks, option 2: Website Attack Vectors, option 2: Metasploit Browser Exploit Method, and then option 1: Web Templates. 
 
-### Build:
-- Weeks of coding, testing, and iterating, to develop core features necessary for the website.
-- Integrate outside functions and APIs _(i.e. Google Login)_
-
-
-![Captureii](https://github.com/blwhit/Web-Application-Development/assets/141170960/8c207e9e-252e-44ea-8291-b5b5b253f0db)
-![Capture;;](https://github.com/blwhit/Web-Application-Development/assets/141170960/51d426cb-8555-4d9f-828d-a84d6a853e70)
-
-
-### Test:
-- User testings and usability testing to restructure and re-tune the features, layout, and flow of our site
-- Finalizing website features and revisiting code
-
-
-![eee](https://github.com/blwhit/Web-Application-Development/assets/141170960/ad4da2f5-cced-464d-98d8-7fba09c6210f)
-![Capturedd](https://github.com/blwhit/Web-Application-Development/assets/141170960/928731a7-7a04-41c4-8e6e-8bef40c25e9c)
+![Capture3](https://github.com/Silveshadow/Social-Engineering-using-SET/blob/main/Screenshot%202025-09-15%20112953.png)
+![Capture2](https://github.com/Silveshadow/Social-Engineering-using-SET/blob/main/Screenshot%202025-09-15%20113009.png)
+![Capture2](https://github.com/Silveshadow/Social-Engineering-using-SET/blob/main/Screenshot%202025-09-15%20113033.png)
+![Capture2](https://github.com/Silveshadow/Social-Engineering-using-SET/blob/main/Screenshot%202025-09-15%20113059.png)
 
 
 
-# Final Product 
-The Hoosier Connection: 
-- Project Video: https://youtu.be/HqRRjv94l-w 
-- Full Project Report: https://docs.google.com/document/d/1Pj3iCFO3gxrUpi_rR1D_LqG7oXNGsWtOgm6fDVylPxk/edit?usp=sharing
+
+Now to make sure to enter no for NAT/Port Forwarding.
 
 
-![Capturekkk](https://github.com/blwhit/Web-Application-Development/assets/141170960/cfd6167e-43db-4640-a71d-766ffedd612d)
-![Capturesdfsdf](https://github.com/blwhit/Web-Application-Development/assets/141170960/bec96fb8-e8dd-425d-8f45-99a7a7fbcb8e)
-![Capturesdfsdaf](https://github.com/blwhit/Web-Application-Development/assets/141170960/121731da-8c62-4a90-b254-7e2869abcc2b)
-![fffff](https://github.com/blwhit/Web-Application-Development/assets/141170960/279d3feb-9d0e-48b1-8744-5981e6dab052)
+
+![Captureii](https://github.com/Silveshadow/Social-Engineering-using-SET/blob/main/Screenshot%202025-09-15%20113134.png)
+
+
+
+Now to enter the Host IP address
+
+![Capture;;](https://github.com/Silveshadow/Social-Engineering-using-SET/blob/main/Screenshot%202025-09-15%20113240.png)
+
+
+Now proceeding with the steps selecting option 3: Facebook email template, option 46: Metasploit Browser Autopwn, option 2: Windows reverse TCP Meterpreter, enter port 443, and then wait for the system to finish processing.
+
+
+![eee](https://github.com/Silveshadow/Social-Engineering-using-SET/blob/main/Screenshot%202025-09-15%20113258.png)
+![Capturedd](https://github.com/Silveshadow/Social-Engineering-using-SET/blob/main/Screenshot%202025-09-15%20113317.png)
+![Capturedd](https://github.com/Silveshadow/Social-Engineering-using-SET/blob/main/Screenshot%202025-09-15%20113352.png)
+![Capturedd](https://github.com/Silveshadow/Social-Engineering-using-SET/blob/main/Screenshot%202025-09-15%20113410.png)
+![Capturedd](https://github.com/Silveshadow/Social-Engineering-using-SET/blob/main/Screenshot%202025-09-15%20113637.png)
+
+
+
+# Target: Windows Server 
+I start going through the opera mailing program and proceed to click on the facebook url.
+
+![Capturekkk](https://github.com/Silveshadow/Social-Engineering-using-SET/blob/main/Screenshot%202025-09-15%20113818.png)
+
+As normal the target wouldn't notice anything and begin to enter their login credentials.
+
+![Capturesdfsdf](https://github.com/Silveshadow/Social-Engineering-using-SET/blob/main/Screenshot%202025-09-15%20113912.png)
+
+
+# Back to the Attacker: Kali 2 Attack Machine
+I check the command line and see the target successfully logged in giving me full control of their device.
+
+![Capturesdfsdaf](https://github.com/Silveshadow/Social-Engineering-using-SET/blob/main/Screenshot%202025-09-15%20115439.png)
+
+I type in the code session -l to fully see what device was connected to the url.
+
+![fffff](https://github.com/Silveshadow/Social-Engineering-using-SET/blob/main/Screenshot%202025-09-15%20115511.png)
+
+Now I type the code session -i 1 to connect to the specific device.
+
+![fffff](https://github.com/Silveshadow/Social-Engineering-using-SET/blob/main/Screenshot%202025-09-15%20115550.png)
+
+Now I proceed with steps to download specific files typing the code pwd to present directory, then type cd \ to change directory, then type ls to see the list in the current directory, type cd share to see files in the share folder, then type cd DeathStar to direct to the specific folder, and then gain access to the blueprint jpgs.
+
+![fffff](https://github.com/Silveshadow/Social-Engineering-using-SET/blob/main/Screenshot%202025-09-15%20115615.png)
+
+![fffff](https://github.com/Silveshadow/Social-Engineering-using-SET/blob/main/Screenshot%202025-09-15%20115635.png)
+
+![fffff](https://github.com/Silveshadow/Social-Engineering-using-SET/blob/main/Screenshot%202025-09-15%20115704.png)
+
+![fffff](https://github.com/Silveshadow/Social-Engineering-using-SET/blob/main/Screenshot%202025-09-15%20115723.png)
+
+![fffff](https://github.com/Silveshadow/Social-Engineering-using-SET/blob/main/Screenshot%202025-09-15%20115757.png)
+
+![fffff](https://github.com/Silveshadow/Social-Engineering-using-SET/blob/main/Screenshot%202025-09-15%20115925.png)
+
+Finally I type in the code download *.* /root downloading the jpgs to the attack machine where I can view them on the photos directory.
+
+![fffff](https://github.com/Silveshadow/Social-Engineering-using-SET/blob/main/Screenshot%202025-09-15%20120003.png)
+
+![fffff](https://github.com/Silveshadow/Social-Engineering-using-SET/blob/main/Screenshot%202025-09-15%20120121.png)
+
